@@ -1,6 +1,6 @@
 int_no = 50
 pi = 3.14
-str_marks = "60"
+str_marks = "50"
 
 # Converting integer into a string
 string_no = str(int_no)
