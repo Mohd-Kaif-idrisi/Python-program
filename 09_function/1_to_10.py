@@ -1,5 +1,5 @@
-def one_to_ten(i):
-    for i in range(i,11):
+def one_to_ten():
+    for i in range(1,11):
         print(i)
 
-one_to_ten(1)        
+one_to_ten()
