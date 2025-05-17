@@ -1,4 +1,4 @@
-pr = "Hello my name is kaif."
+pr = "Hello my name is kaif"
 
 # Make all the string char. at uppercase
 print(pr.upper())
