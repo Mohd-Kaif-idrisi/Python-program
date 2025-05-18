@@ -1,0 +1,3 @@
+# REPEATED NUMBER IS NOT ALLOWED IN SETS
+set = {45, 34, 87, 23, 23}
+print(set)
