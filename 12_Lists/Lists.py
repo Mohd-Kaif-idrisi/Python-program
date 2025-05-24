@@ -1,4 +1,5 @@
 # IN LIST WE CAN STORE MULTIPLE DATATYPE
+# LIST IS MUTABLE AS COMPARE TO STRINGS MEANS WE CAN CHANGE LIST DIRECTLY
 
 marks = [50,43,76,21]
 
@@ -11,5 +12,6 @@ print(mixed_marks)
 print(marks[1:3])
 print(mixed_marks[0:3])
 
+# CONVERTING IN LIST
 mark = str(marks)
 print(mark,"\n",type(mark))
