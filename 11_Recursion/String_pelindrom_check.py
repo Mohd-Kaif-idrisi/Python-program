@@ -7,4 +7,4 @@ def pelindrom(str):
         return pelindrom(str[1:-1])
         
 
-print(pelindrom("abcba"))        
+print(pelindrom("abcdba"))        
