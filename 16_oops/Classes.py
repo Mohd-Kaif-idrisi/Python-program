@@ -1,29 +1,14 @@
 class result:
     name = "irfan"
-    marks = 280
-    subject = "science"
-    def marksheet(self):
+    marks = 400
+    subject = "hindi"
 
-        print(f"{self.name} get {self.marks} marks out of 500 in {self.subject}")
+    def info(self):
+        
+        print(f"{self.name} get {self.marks} marks in {self.subject}")
 
 a = result()
-b = result()
-c = result()       
 
-b.name = "kaif"
-b.marks = 400
+b = a.name("kaif")
 
-
-c.name = "mohit"
-c.marks = 500
-"science"
-a.marksheet()
-b.marksheet()
-c.marksheet()
-
- 
-
-
-
-
- 
+b.info()
