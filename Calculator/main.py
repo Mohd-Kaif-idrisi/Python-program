@@ -1,3 +1,4 @@
+print("*******************WELCOME*********************")
 while True:
     try:
         a = int(input("Enter first number: "))
@@ -18,7 +19,9 @@ while True:
             case '/':
                 print(a,"/",b,"sum is = ",a/b)
             case '**':
-                print(a,"**",b,"Exponentiation is = ",a**b)      
+                print(a,"**",b,"Exponentiation is = ",a**b)
+            case '%':
+                print(a,"%",b,"remainter is = ",a%b)          
             case default:
                 print("There was an error")
         q = input("Enter y to continue or n to exit: ")
